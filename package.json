@@ -1,0 +1,28 @@
+{
+  "name": "cypress-public-project",
+  "version": "1.0.0",
+  "description": "cypress public projects - basic interactions - api testing - poo project",
+  "main": "index.js",
+  "scripts": {
+    "opener": "cypress open --e2e --browser chrome",
+    "runner": "cypress run --browser chrome"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "testing"
+  ],
+  "author": "Ignacio Calegiure",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cy-verify-downloads": "^0.2.3",
+    "cypress": "^13.6.6",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.12.0"
+  }
+}
